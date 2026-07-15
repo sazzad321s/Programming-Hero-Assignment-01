@@ -176,6 +176,11 @@ nav ul li a{
 .secure-div3 ul li,.secure-div2 ul li{
    line-height: 30px;
 }
+.secure-div1 ul li::marker,
+.secure-div2 ul li::marker,
+.secure-div3 ul li::marker{
+    color: #2563EB;
+}
 .secure-div1 button{
     font-weight: bold;
     color: #2563EB;
