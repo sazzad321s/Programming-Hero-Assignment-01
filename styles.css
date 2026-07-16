@@ -270,3 +270,74 @@ margin-bottom: 10px;
 .faq-a{
     color: #575757;
 }
+footer{
+  background-color: #000102;
+  color: white;
+  font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer-parent-div1{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.column1-logo{
+    display: flex;
+    gap: 4px;
+}
+.column1 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+.column1-links{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+}
+.column1-links a{
+    text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.column2 p{
+     color: rgba(255, 255, 255, 0.5);
+}
+.footer-line{
+    width:95%;
+    margin: auto;
+    border: none;
+    border-top: 1px solid #3b3b3b;
+}
+.footer-parent-div2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+   max-width: 1350px;
+   margin: 0 auto;
+}
+.div1{
+  font-size: 13px;
+  color: #3b3b3b;
+}
+.div2 ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 12px;
+
+}
+.div2 ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #3b3b3b;
+}
